@@ -1,0 +1,106 @@
+.kv-featured-brands {
+  padding-block: clamp(26px, 3vw, 44px) clamp(30px, 3.5vw, 50px);
+  background: #fff;
+  color: var(--kv-ink);
+}
+.kv-app .kv-featured-brands h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(9px, 1.5vw, 24px);
+  /* Keep the label readable while preserving half the original section height. */
+  margin: 0 0
+    calc(clamp(18px, 2.5vw, 33px) + clamp(10.5px, 1.2vw, 17.25px) - 18px);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.27em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.kv-app .kv-featured-brands h2::before,
+.kv-app .kv-featured-brands h2::after {
+  content: "";
+  flex: 0 1 55px;
+  height: 1px;
+  background: var(--kv-ink);
+}
+.kv-featured-brands__list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: 50%;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.kv-featured-brands__list li {
+  position: relative;
+  min-width: 0;
+}
+.kv-featured-brands__list li + li::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 0;
+  width: 1px;
+  background: var(--kv-line);
+}
+.kv-featured-brands__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 69px;
+  padding: 6px clamp(10px, 1.5vw, 23px);
+  transition: opacity 0.18s ease-out;
+}
+.kv-featured-brands__link img {
+  display: block;
+  width: 100%;
+  height: 56px;
+  max-width: 120px;
+  object-fit: contain;
+  filter: brightness(0);
+}
+.kv-featured-brands__link--adidas img {
+  max-width: 95px;
+}
+.kv-featured-brands__link--nike img {
+  max-width: 112px;
+}
+.kv-featured-brands__link:hover {
+  opacity: 0.62;
+}
+.kv-featured-brands__link:focus-visible {
+  outline: 3px solid var(--kv-primary);
+  outline-offset: 3px;
+}
+@media (max-width: 600px) {
+  .kv-app .kv-featured-brands h2 {
+    gap: 7px;
+    letter-spacing: 0.18em;
+  }
+  .kv-app .kv-featured-brands h2::before,
+  .kv-app .kv-featured-brands h2::after {
+    flex-basis: 14px;
+  }
+  .kv-featured-brands__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 14px;
+  }
+  .kv-featured-brands__list li:nth-child(odd)::before {
+    display: none;
+  }
+  .kv-featured-brands__link {
+    min-height: 55px;
+    padding-inline: 11px;
+  }
+  .kv-featured-brands__link img {
+    height: 44px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .kv-featured-brands__link {
+    transition: none;
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "localPath": "/media/images/carousel/fresh-sneakers.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 157664,
+    "sha256": "a74f06af753ad33ffecfc970b8bbc98ccab4c07875ce99ee465f8cd353b488d2"
+  },
+  {
+    "localPath": "/media/images/carousel/finishing-touches.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 100489,
+    "sha256": "bbf240f570471a2d7b46fb3ceb5afb3a36191e1396aa8004f30ba322467e9e97"
+  },
+  {
+    "localPath": "/media/images/carousel/denim-days.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 100313,
+    "sha256": "30e2d239ca8be46e903c1be0f4344e88661351ed891433e131f3f4587160f9ff"
+  },
+  {
+    "localPath": "/media/images/carousel/everyday-cotton.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 85933,
+    "sha256": "57764eaaa2fec30eda2c8713adf78729f69fae311c4b6d1ed762343b7d10befe"
+  },
+  {
+    "localPath": "/media/images/carousel/everyday-cap.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 47035,
+    "sha256": "eecea9837e06cc45825af49d35b307517197a2567a4070c5554c6eacadaa2c7a"
+  },
+  {
+    "localPath": "/media/images/carousel/layering-jacket.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 145909,
+    "sha256": "0b1b5c4bef9bd595da7364b0f691b7c0d58b76e6b0ac1f5cc4127815c88711df"
+  },
+  {
+    "localPath": "/media/images/carousel/cotton-edit.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 88376,
+    "sha256": "2608af04a2dba2395f6a3192ce165aecb92c84ffd576f3ed16cb25098b3d18ec"
+  },
+  {
+    "localPath": "/media/images/carousel/daily-backpack.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 63582,
+    "sha256": "bb0e303fa0755196b10aa6844a7a3170da20c2075c6c2ca76aa5e3991d87d567"
+  },
+  {
+    "localPath": "/media/images/carousel/classic-watch.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 66416,
+    "sha256": "4e51564a40793dd4f5c84f35bef90fca03d43a2ba674e5ca8e03a01f5894dfdb"
+  },
+  {
+    "localPath": "/media/images/carousel/sunglasses.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 33071,
+    "sha256": "c96788f6ee5c2bd94b538ae19d80e9e8e0a75b2a4a1c3a6f79fe6d310d181acd"
+  },
+  {
+    "localPath": "/media/images/carousel/knit-beanie.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 220765,
+    "sha256": "baebd670548ea08a203861124ed8d10753e7159d99f38149f485f2dcd6cba33a"
+  },
+  {
+    "localPath": "/media/images/carousel/sport-sneakers.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 194396,
+    "sha256": "e63506816189e246235528ea70ee5f3e6097789c005a078398a51f9355da0ae1"
+  },
+  {
+    "localPath": "/media/images/carousel/leather-wallet.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 56488,
+    "sha256": "17bea51d8d2cb7feff2c6aa9242eb8d8c8b50b1d444af829a404e8097f64046f"
+  },
+  {
+    "localPath": "/media/images/carousel/leather-belt.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 144396,
+    "sha256": "df9126f1ce539c39173b2312edd094c939d2eced9f7d4321059916a952461c6d"
+  },
+  {
+    "localPath": "/media/images/carousel/soft-knit.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 146536,
+    "sha256": "6715a4574c5934553f5bff6b3e0996c5adb2be5bb573eb18221fd0717035568e"
+  },
+  {
+    "localPath": "/media/images/carousel/weekend-bag.jpg",
+    "provider": "Unsplash",
+    "originalSourceUrl": "https://images.unsplash.com/photo-1509762774605-f07235a08f1f?w=720&h=960&fit=crop&q=85&fm=jpg",
+    "license": "https://unsplash.com/license",
+    "downloadDate": "2026-11-13",
+    "bytes": 168014,
+    "sha256": "b3842fff8cb22dada2bd0c9f3fd97d2a35149b8a673f8678179b6f52098c25df"
+  }
+]

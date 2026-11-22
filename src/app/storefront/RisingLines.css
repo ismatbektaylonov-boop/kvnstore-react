@@ -1,0 +1,81 @@
+.kv-hero {
+  position: relative;
+  isolation: isolate;
+}
+
+.kv-rising-lines {
+  --horizon: 8%;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse 72% 34% at 56% calc(100% - var(--horizon)),
+    color-mix(in srgb, var(--kv-primary) 14%, transparent),
+    transparent 76%
+  );
+}
+
+.kv-rising-lines::before {
+  content: "";
+  position: absolute;
+  inset: auto 0 var(--horizon);
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 6%,
+    color-mix(in srgb, var(--kv-primary) 25%, transparent) 56%,
+    transparent 95%
+  );
+}
+
+.kv-rising-lines > span {
+  position: absolute;
+  bottom: var(--horizon);
+  left: var(--line-position);
+  width: 1px;
+  height: var(--line-length);
+  opacity: 0.5;
+  background: linear-gradient(
+    180deg,
+    var(--kv-white),
+    color-mix(in srgb, var(--kv-primary) 68%, transparent) 12%,
+    transparent
+  );
+  transform: translateY(var(--line-rest));
+}
+
+.kv-rising-lines > span:nth-child(5n + 1) {
+  width: 2px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .kv-rising-lines > span {
+    animation: kv-line-rise var(--line-duration) linear var(--line-delay)
+      infinite;
+  }
+}
+
+@keyframes kv-line-rise {
+  from {
+    opacity: 0;
+    transform: translateY(45%);
+  }
+  18% {
+    opacity: 0.8;
+  }
+  66% {
+    opacity: 0.55;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-340%);
+  }
+}
+
+@media (max-width: 600px) {
+  .kv-rising-lines > span:nth-child(even) {
+    display: none;
+  }
+}

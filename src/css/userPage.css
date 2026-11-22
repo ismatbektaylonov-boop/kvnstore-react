@@ -1,0 +1,65 @@
+.coco-account { background: var(--kv-surface); flex: 1; padding: 52px 0 78px; }
+.coco-account__heading { gap: 30px; margin-bottom: 30px; }
+.coco-account__eyebrow.MuiTypography-root { color: var(--kv-ink); font-size: 10px; font-weight: 700; letter-spacing: .2em; }
+.coco-account__heading h1.MuiTypography-root { color: var(--kv-ink); font-family: Georgia, "Times New Roman", serif; font-size: 46px; font-weight: 400; line-height: 1; margin-top: 7px; }
+.coco-account__heading > .MuiTypography-root { color: var(--kv-ink); font-size: 12px; max-width: 340px; }
+.coco-account__layout { align-items: start; display: grid; gap: 24px; grid-template-columns: 270px minmax(0,1fr); }
+.coco-account__sidebar { background: var(--kv-surface); color: var(--kv-ink); overflow: hidden; }
+.coco-account__profile { align-items: center; display: flex; gap: 13px; padding: 24px 22px; }
+.coco-account__avatar { align-items: center; background: var(--kv-surface); border-radius: 50%; color: var(--kv-ink); display: flex; font-family: Georgia, "Times New Roman", serif; font-size: 25px; height: 52px; justify-content: center; width: 52px; }
+.coco-account__avatar { overflow: hidden; flex: 0 0 52px; }
+.coco-account__avatar img { height: 100%; object-fit: cover; width: 100%; }
+.coco-account__profile h2.MuiTypography-root { color: var(--kv-ink); font-family: Georgia, "Times New Roman", serif; font-size: 19px; }
+.coco-account__profile div > .MuiTypography-root { color: var(--kv-ink); font-size: 10px; margin-top: 4px; }
+.coco-account__nav { border-bottom: 1px solid var(--kv-control-border); border-top: 1px solid var(--kv-control-border); padding: 10px 0; }
+.coco-account__nav-item { align-items: center; background: transparent; border: 0; color: var(--kv-ink); cursor: pointer; display: flex; font: inherit; font-size: 12px; gap: 11px; padding: 12px 22px; text-align: left; text-decoration: none; width: 100%; }
+.coco-account__nav-item svg { font-size: 18px; }
+.coco-account__nav-item:hover, .coco-account__nav-item--active { background: var(--kv-white); color: var(--kv-primary); }
+.coco-account__nav-item--active { border-left: 3px solid var(--kv-primary); padding-left: 19px; }
+.coco-account__membership { padding: 22px; }
+.coco-account__membership > .MuiTypography-root:first-child { color: var(--kv-ink); font-size: 9px; font-weight: 700; letter-spacing: .15em; }
+.coco-account__membership strong.MuiTypography-root { color: var(--kv-ink); display: block; font-family: Georgia, "Times New Roman", serif; font-size: 25px; font-weight: 400; margin: 7px 0 10px; }
+.coco-account__membership > div { background: var(--kv-surface); height: 2px; overflow: hidden; }
+.coco-account__membership > div span { background: var(--kv-primary); display: block; height: 100%; width: 60%; }
+.coco-account__membership > .MuiTypography-root:last-child { color: var(--kv-ink); font-size: 10px; margin-top: 9px; }
+.coco-settings { background: var(--kv-white); padding: 32px; }
+.coco-settings__title { border-bottom: 1px solid var(--kv-control-border); gap: 20px; padding-bottom: 23px; }
+.coco-settings__title h2.MuiTypography-root { color: var(--kv-ink); font-family: Georgia, "Times New Roman", serif; font-size: 27px; font-weight: 400; }
+.coco-settings__title > div > .MuiTypography-root { color: var(--kv-ink); font-size: 11px; margin-top: 5px; }
+.coco-settings__saved { color: var(--kv-ink); font-size: 10px; font-weight: 700; gap: 4px; letter-spacing: .05em; text-transform: uppercase; }
+.coco-settings__saved svg { font-size: 15px; }
+.coco-settings__photo { border-bottom: 1px solid var(--kv-control-border); gap: 16px; padding: 24px 0; }
+.coco-settings__photo-preview { align-items: center; background: var(--kv-surface); border-radius: 50%; color: var(--kv-ink); display: flex; font-family: Georgia, "Times New Roman", serif; font-size: 22px; height: 66px; justify-content: center; overflow: hidden; width: 66px; }
+.coco-settings__photo-preview img { height: 100%; object-fit: cover; width: 100%; }
+.coco-settings__photo h3.MuiTypography-root, .coco-settings__preferences h3.MuiTypography-root { color: var(--kv-ink); font-family: Georgia, "Times New Roman", serif; font-size: 18px; }
+.coco-settings__photo div > .MuiTypography-root { color: var(--kv-ink); font-size: 10px; margin-top: 3px; }
+.coco-settings__photo .MuiButton-root { color: var(--kv-ink); font-size: 10px; font-weight: 700; margin-top: 7px; padding-left: 0; }
+.coco-settings__fields { display: grid; gap: 18px; grid-template-columns: repeat(2,minmax(0,1fr)); padding: 28px 0; }
+.coco-settings__fields .MuiOutlinedInput-root { border-radius: 0; font-size: 13px; }
+.coco-settings__fields .MuiOutlinedInput-notchedOutline { border-color: var(--kv-control-border); }
+.coco-settings__fields .Mui-focused .MuiOutlinedInput-notchedOutline { border-color: var(--kv-control-border); }
+.coco-settings__fields .MuiInputLabel-root { color: var(--kv-ink); font-size: 12px; }
+.coco-settings__preferences { background: var(--kv-surface); border: 1px solid var(--kv-control-border); padding: 18px; }
+.coco-settings__payment { border-top: 1px solid var(--kv-control-border); margin-top: 28px; padding-top: 24px; }
+.coco-settings__payment > h3.MuiTypography-root { color: var(--kv-ink); font-family: Georgia, "Times New Roman", serif; font-size: 20px; }
+.coco-settings__payment > .MuiTypography-root { color: var(--kv-ink); font-size: 11px; margin: 5px 0 18px; }
+.coco-payment-form { display: flex; flex-direction: column; gap: 14px; }
+.coco-payment-form__fields { display: grid; gap: 14px; grid-template-columns: repeat(2,minmax(0,1fr)); }
+.coco-payment-form__fields .MuiOutlinedInput-root { border-radius: 0; }
+.coco-payment-form__saved.MuiTypography-root { align-items: center; color: var(--kv-ink); display: flex; font-size: 11px; gap: 7px; }
+.coco-payment-form__saved svg { font-size: 18px; }
+.coco-payment-form__note.MuiTypography-root { color: var(--kv-ink); font-size: 10px; }
+.coco-payment-form > .MuiButton-contained { align-self: flex-end; background: var(--kv-primary); border-radius: 0; }
+.coco-settings__preferences h3.MuiTypography-root { font-size: 18px; margin-bottom: 14px; }
+.coco-settings__preferences .MuiStack-root > div > .MuiTypography-root:first-child { color: var(--kv-ink); font-size: 12px; font-weight: 700; }
+.coco-settings__preferences .MuiStack-root > div > .MuiTypography-root:last-child { color: var(--kv-ink); font-size: 10px; margin-top: 3px; max-width: 370px; }
+.coco-settings__switch input { height: 0; opacity: 0; width: 0; }
+.coco-settings__switch span { background: var(--kv-surface); border-radius: 12px; cursor: pointer; display: block; height: 22px; position: relative; transition: background 180ms ease; width: 42px; }
+.coco-settings__switch span::after { background: var(--kv-white); border-radius: 50%; content: ""; height: 16px; left: 3px; position: absolute; top: 3px; transition: transform 180ms ease; width: 16px; }
+.coco-settings__switch input:checked + span { background: var(--kv-primary); }
+.coco-settings__switch input:checked + span::after { transform: translateX(20px); }
+.coco-settings__actions { border-top: 1px solid var(--kv-control-border); gap: 9px; margin-top: 28px; padding-top: 20px; }
+.coco-settings__actions .MuiButton-root { color: var(--kv-ink); font-size: 11px; font-weight: 700; }
+.coco-settings__actions .MuiButton-contained { background: var(--kv-primary); border-radius: 0; color: var(--kv-white); padding: 9px 16px; }
+@media (max-width:800px) { .coco-account__layout { grid-template-columns: 1fr; } .coco-account__sidebar { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); } .coco-account__nav { border-bottom: 0; } .coco-account__membership { border-left: 1px solid var(--kv-control-border); } }
+@media (max-width:600px) { .coco-account { padding: 36px 0 54px; } .coco-account__heading { align-items: flex-start; flex-direction: column; } .coco-account__heading h1.MuiTypography-root { font-size: 38px; } .coco-account__sidebar { display: block; } .coco-account__membership { border-left: 0; border-top: 1px solid var(--kv-control-border); } .coco-settings { padding: 24px 18px; } .coco-settings__title { align-items: flex-start; flex-direction: column; } .coco-settings__fields, .coco-payment-form__fields { grid-template-columns: 1fr; } .coco-settings__preferences .MuiStack-root { align-items: flex-start; flex-direction: column; gap: 12px; } }

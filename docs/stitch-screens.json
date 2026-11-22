@@ -1,0 +1,92 @@
+{
+  "project": "KVN Store — Frontend",
+  "projectId": "9161330918000596241",
+  "url": "https://stitch.withgoogle.com/projects/9161330918000596241",
+  "designSystem": "assets/410c476d8cea4aae85ba064a62fdb163",
+  "screens": [
+    {
+      "title": "01 Home — KVN Store",
+      "name": "projects/9161330918000596241/screens/dbd0dce56d8a4898b208cd1c5d6f3f95",
+      "deviceType": "DESKTOP",
+      "htmlFile": "projects/9161330918000596241/files/a695a0d815ba4f84b1c7d1acc588de9f",
+      "screenshotFile": "projects/9161330918000596241/files/87500763341b49c1a7e6ca6b9415042e"
+    },
+    {
+      "title": "02 Catalog — KVN Store",
+      "name": "projects/9161330918000596241/screens/979e79d7791b4fe9addcabbaf6506b2b",
+      "deviceType": "DESKTOP",
+      "htmlFile": "projects/9161330918000596241/files/cbf72d607db1462a9f9c265ea70ea7e5",
+      "screenshotFile": "projects/9161330918000596241/files/0dc15d677e6c44d4916d6e00a2f3d2ab"
+    },
+    {
+      "title": "03 Product Detail — KVN Store",
+      "name": "projects/9161330918000596241/screens/d401695144514ee8a94ca6ff5c9653b2",
+      "deviceType": "DESKTOP",
+      "htmlFile": "projects/9161330918000596241/files/6e77b740843b401fb1e647ff23be46ce",
+      "screenshotFile": "projects/9161330918000596241/files/ecbd07b09612455889d65f282034e861"
+    },
+    {
+      "title": "Administration Workspace — Desktop & Mobile — KVN Store",
+      "name": "projects/9161330918000596241/screens/c538ee0ee7d34e88ac02fbfdbf397ff4",
+      "deviceType": "DESKTOP",
+      "htmlFile": "projects/9161330918000596241/files/c34da9b97cdb45278b7bc215d51a986b",
+      "screenshotFile": "projects/9161330918000596241/files/b078104d151043bd93b80073f4901b73"
+    },
+    {
+      "title": "Customer Account Workspace — KVN Store",
+      "name": "projects/9161330918000596241/screens/8122be42ecea48809da8f9a0c227c84a",
+      "deviceType": "DESKTOP",
+      "htmlFile": "projects/9161330918000596241/files/e7357b5ed3d145aa8a88e8bc7f7d3f04",
+      "screenshotFile": "projects/9161330918000596241/files/3f13b1a8df1c47b58b95415c35bdc60b"
+    },
+    {
+      "title": "Purchasing Workspace — KVN Store",
+      "name": "projects/9161330918000596241/screens/4a949f2077064e33978d9c8c82140eca",
+      "deviceType": "DESKTOP",
+      "htmlFile": "projects/9161330918000596241/files/bbbafad9e58141eaa46d7e51a56d7dca",
+      "screenshotFile": "projects/9161330918000596241/files/f440de8581ec4044a7edb42d7a340fcb"
+    },
+    {
+      "title": "M01 Home — KVN Store",
+      "name": "projects/9161330918000596241/screens/ad1aaeb7065e479c80b5d95133c18823",
+      "deviceType": "MOBILE",
+      "htmlFile": "projects/9161330918000596241/files/e0fe6cdcb56749b2bdf8d3e840f725a5",
+      "screenshotFile": "projects/9161330918000596241/files/fb9ccfcb6efb40e692cd163d54993ba1"
+    },
+    {
+      "title": "M02 Catalog — KVN Store",
+      "name": "projects/9161330918000596241/screens/beaed78f3f63438c8df1e45f61ed8d14",
+      "deviceType": "MOBILE",
+      "htmlFile": "projects/9161330918000596241/files/bd6c3f2b2cb44f64b96c8951506cc3f5",
+      "screenshotFile": "projects/9161330918000596241/files/8f6c6e1a00ef469d8ae34d1323f1033a"
+    },
+    {
+      "title": "M03 Product Detail — KVN Store",
+      "name": "projects/9161330918000596241/screens/3da484bae76b45c9b0230bec0f26f538",
+      "deviceType": "MOBILE",
+      "htmlFile": "projects/9161330918000596241/files/5580612df62d49419cae6bdc3b63dc0e",
+      "screenshotFile": "projects/9161330918000596241/files/d273bf4bc9f94bf9922acefab66c633b"
+    },
+    {
+      "title": "M04 Customer Auth & Profile — KVN Store",
+      "name": "projects/9161330918000596241/screens/a65bb363b5914369a7fd3b977aaff202",
+      "deviceType": "MOBILE",
+      "htmlFile": "projects/9161330918000596241/files/eb3efdf8818b4daf8b2ff09587f3bda5",
+      "screenshotFile": "projects/9161330918000596241/files/28d6685cb54143589417cc4ebdcc2c96"
+    },
+    {
+      "title": "M05 Cart & Checkout — KVN Store",
+      "name": "projects/9161330918000596241/screens/5ea6e9cb2fc6470184a81883953ada30",
+      "deviceType": "MOBILE",
+      "htmlFile": "projects/9161330918000596241/files/75811db835f94c0f9bc04e182b03c568",
+      "screenshotFile": "projects/9161330918000596241/files/449a7eaaf2174284b45dc56f83848d08"
+    },
+    {
+      "title": "M06 Orders & Reservation — KVN Store",
+      "name": "projects/9161330918000596241/screens/bd670cfbb3ef4d68889b84ab1439e378",
+      "deviceType": "MOBILE",
+      "htmlFile": "projects/9161330918000596241/files/c0feb8b90dac4d01b9a183264cc0b0c7",
+      "screenshotFile": "projects/9161330918000596241/files/b97e7bd83b4047e485e19ce1745ade82"
+    }
+  ]
+}

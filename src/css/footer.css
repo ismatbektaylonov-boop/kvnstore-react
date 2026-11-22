@@ -1,0 +1,20 @@
+.coco-footer { background: var(--kv-surface); color: var(--kv-ink); margin-top: auto; padding: 34px 0 18px; }
+.coco-footer__support { align-items: center; border-bottom: 1px solid var(--kv-control-border); display: flex; justify-content: space-between; padding-bottom: 22px; }
+.coco-footer__support > .MuiTypography-root { color: var(--kv-ink); font-family: Georgia, "Times New Roman", serif; font-size: 22px; }
+.coco-footer__support a { align-items: center; color: var(--kv-ink); display: flex; font-size: 12px; font-weight: 700; gap: 8px; letter-spacing: .06em; text-transform: uppercase; }
+.coco-footer__support svg { font-size: 17px; }
+.coco-footer__content { display: grid; gap: 34px; grid-template-columns: minmax(240px,1.5fr) repeat(3,minmax(120px,.65fr)); padding: 30px 0 28px; }
+.coco-footer__brand, .coco-footer__section, .coco-footer__links, .coco-footer__contact { display: flex; flex-direction: column; }
+.coco-footer__brand, .coco-footer__section { gap: 13px; }
+.coco-footer__logo.MuiTypography-root { color: var(--kv-ink); font-family: Georgia, "Times New Roman", serif; font-size: 26px; font-weight: 700; letter-spacing: .16em; line-height: 1; }
+.coco-footer__description.MuiTypography-root { color: var(--kv-ink); font-size: 12px; line-height: 1.65; max-width: 300px; }
+.coco-footer__socials { flex-wrap: wrap; gap: 14px; }
+.coco-footer a { color: var(--kv-ink); font-size: 12px; text-decoration: none; transition: color 180ms ease; }
+.coco-footer a:hover { color: var(--kv-primary); background-color: var(--kv-white); }
+.coco-footer__heading.MuiTypography-root { color: var(--kv-ink); font-size: 10px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+.coco-footer__links, .coco-footer__contact { color: var(--kv-ink); gap: 8px; line-height: 1.45; }
+.coco-footer__contact span, .coco-footer__contact a { color: var(--kv-ink); font-size: 12px; }
+.coco-footer__bottom { align-items: center; border-top: 1px solid var(--kv-control-border); display: flex; justify-content: space-between; padding-top: 16px; }
+.coco-footer__bottom .MuiTypography-root { color: var(--kv-ink); font-size: 10px; letter-spacing: .04em; }
+@media (max-width:800px) { .coco-footer__content { grid-template-columns: repeat(2,minmax(0,1fr)); } .coco-footer__brand { grid-column: 1 / -1; } }
+@media (max-width:560px) { .coco-footer { padding-top: 26px; } .coco-footer__support { align-items: flex-start; flex-direction: column; gap: 12px; } .coco-footer__content { gap: 26px 20px; padding: 26px 0 24px; } .coco-footer__bottom { align-items: flex-start; flex-direction: column; gap: 7px; } }

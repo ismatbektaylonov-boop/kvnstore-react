@@ -1,0 +1,57 @@
+[
+  {
+    "collection": "CLOTHE",
+    "source": "User-provided original PNG, supplied for the homepage category section",
+    "localPath": "/media/images/categories/clothing.png",
+    "width": 1122,
+    "height": 1402,
+    "hasAlpha": true,
+    "bytes": 1643274,
+    "sha256": "be098636db829a2971d41f8acf883c49d98a5c3104be102cdb52e8abc477f75c",
+    "preservation": "Original file retained without modification; display scale adjusted only with CSS."
+  },
+  {
+    "collection": "PANTS",
+    "source": "User-provided original PNG, supplied for the homepage category section",
+    "localPath": "/media/images/categories/trousers.png",
+    "width": 1122,
+    "height": 1402,
+    "hasAlpha": true,
+    "bytes": 942295,
+    "sha256": "c8e25a263c7f52f63eff0a9d0153e0c0c36fdc634c019ce64f6baacd93b82de5",
+    "preservation": "Original file retained without modification; display scale adjusted only with CSS."
+  },
+  {
+    "collection": "HAT",
+    "source": "User-provided original PNG, supplied for the homepage category section",
+    "localPath": "/media/images/categories/hats.png",
+    "width": 1122,
+    "height": 1402,
+    "hasAlpha": true,
+    "bytes": 734377,
+    "sha256": "84a09510f6b2a9a07d3101cd9a7109f89425755539b9a882c1ae85048dbed2e7",
+    "preservation": "Original file retained without modification; display scale adjusted only with CSS."
+  },
+  {
+    "collection": "SHOES",
+    "source": "User-provided original PNG, supplied for the homepage category section",
+    "localPath": "/media/images/categories/shoes.png",
+    "width": 1122,
+    "height": 1402,
+    "hasAlpha": true,
+    "bytes": 803125,
+    "sha256": "811d822eac543f90af354b31ec908dd4a080cc23851e6babf3b7e572a7dd5517",
+    "preservation": "Original file retained without modification; display scale adjusted only with CSS."
+  },
+  {
+    "collection": "OTHERS",
+    "source": "User-provided original PNG, supplied for the homepage category section",
+    "localPath": "/media/images/categories/other_essentials.png",
+    "width": 1122,
+    "height": 1402,
+    "hasAlpha": true,
+    "bytes": 785026,
+    "sha256": "2b5d4c3bdc94ff8f0112800338d0f6a49feec94eba53f242beebceca23c0cd73",
+    "preservation": "Original file retained without modification; display scale adjusted only with CSS."
+  }
+]

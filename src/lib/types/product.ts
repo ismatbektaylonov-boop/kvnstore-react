@@ -1,0 +1,44 @@
+import {
+    ProductCollection,
+    ProductShoeSize,
+    ProductSize,
+    ProductStatus,
+} from "../enums/product.enum";
+
+export interface Product {
+    _id: string;
+    productStatus: ProductStatus;
+    productCollection: ProductCollection;
+    productName: string;
+    productPrice: number;
+    productDiscountPrice?: number;
+    productStock: number;
+    productSizes: Array<ProductSize | ProductShoeSize>;
+    productColors: string[];
+    productBrand?: string;
+    productMaterial?: string;
+    productDesc?: string;
+    productImages: string[];
+    productViews: number;
+    productLikes: number;
+    isLiked: boolean;
+    createdAt: Date;
+    updatedAt: Date;
+}
+
+export interface ProductLikeResult {
+    productLikes: number;
+    isLiked: boolean;
+}
+
+export interface ProductInquiry {
+    order?: "createdAt" | "productViews" | "productPrice";
+    sort?: "asc" | "desc";
+    page: number;
+    limit: number;
+    productCollection?: ProductCollection;
+    productStatus?: ProductStatus;
+    size?: ProductSize | ProductShoeSize;
+    color?: string;
+    search?: string;
+}

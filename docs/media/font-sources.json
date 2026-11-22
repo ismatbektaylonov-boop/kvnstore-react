@@ -1,0 +1,12 @@
+[
+  {
+    "family": "Inter Variable",
+    "originalSourceUrl": "https://raw.githubusercontent.com/rsms/inter/master/docs/font-files/InterVariable.woff2",
+    "licensePath": "src/shared/fonts/Inter-LICENSE.txt",
+    "downloadDate": "2026-11-13",
+    "bytes": 352240,
+    "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+    "intendedUse": "Homepage hero typography matching the supplied reference",
+    "sourcePath": "src/shared/fonts/InterVariable.woff2"
+  }
+]

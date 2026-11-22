@@ -1,0 +1,75 @@
+.kv-app--home {
+  isolation: isolate;
+}
+
+.kv-app--home
+  :is(.kv-announcement, .kv-tint, .kv-home-collections, .kv-featured-brands) {
+  background-color: transparent;
+}
+
+.kv-app--home .kv-header {
+  background-color: color-mix(in srgb, var(--kv-white) 94%, transparent);
+}
+
+.kv-app--home
+  main
+  :is(.kv-text-link, .kv-categories__all, .kv-categories__eyebrow) {
+  color: var(--kv-link-on-surface);
+}
+
+.kv-app--home .kv-hero .kv-text-link {
+  background-color: transparent;
+}
+
+.kv-gradient-bars {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  display: flex;
+  overflow: hidden;
+  pointer-events: none;
+  background: linear-gradient(180deg, var(--kv-surface), var(--kv-white));
+}
+
+.kv-gradient-bars > span {
+  flex: 1 1 0;
+  background:
+    linear-gradient(
+      90deg,
+      transparent 60%,
+      color-mix(in srgb, var(--kv-white) 42%, transparent)
+    ),
+    linear-gradient(
+      180deg,
+      transparent 6%,
+      color-mix(in srgb, var(--kv-primary) 5%, transparent) 29%,
+      color-mix(in srgb, var(--kv-primary) 15%, transparent) 61%,
+      color-mix(in srgb, var(--kv-primary) 4%, transparent) 81%,
+      transparent 98%
+    );
+  mask-image: linear-gradient(180deg, transparent, #000 14% 86%, transparent);
+  transform: translateY(calc(16% * sin(var(--bar-index) * 42deg)));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .kv-gradient-bars > span {
+    animation: kv-gradient-bar-wave 14s ease-in-out infinite;
+    animation-delay: calc(var(--bar-index) * -1.1s);
+  }
+}
+
+@keyframes kv-gradient-bar-wave {
+  0%,
+  100% {
+    transform: translateY(-23%) scaleY(1.14);
+  }
+  50% {
+    transform: translateY(23%) scaleY(1.14);
+  }
+}
+
+@media (max-width: 600px) {
+  .kv-gradient-bars > span:nth-child(n + 9) {
+    display: none;
+  }
+}

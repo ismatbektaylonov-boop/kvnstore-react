@@ -1,0 +1,32 @@
+.kv-product-showcase {
+  position: relative;
+  isolation: isolate;
+}
+
+.kv-product-showcase-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  container-type: inline-size;
+}
+
+.kv-product-showcase-backdrop span {
+  position: absolute;
+  inset-block-start: clamp(12px, 2vw, 32px);
+  inset-inline-end: clamp(12px, 5vw, 96px);
+  color: color-mix(in srgb, var(--kv-ink) 9%, transparent);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(110px, 25cqi, 380px);
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  line-height: 0.82;
+  white-space: nowrap;
+}
+
+.kv-product-showcase--viewed .kv-product-showcase-backdrop span {
+  inset-inline: 0;
+  font-size: min(12.5cqi, 200px);
+  text-align: center;
+}

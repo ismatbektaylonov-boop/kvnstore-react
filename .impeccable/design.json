@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T09:20:43.000Z",
+  "title": "Design System: KVN Store — Clean Minimal Light",
+  "extensions": {
+    "colorMeta": {
+      "canvas": { "role": "neutral", "displayName": "White Canvas" },
+      "surface": { "role": "neutral", "displayName": "Light Gray Surface" },
+      "ink": { "role": "neutral", "displayName": "Dark Ink" },
+      "muted": { "role": "neutral", "displayName": "Muted Gray" },
+      "action": { "role": "primary", "displayName": "Action Blue" },
+      "link-on-surface": { "role": "primary", "displayName": "Surface Link Blue" },
+      "line": { "role": "neutral", "displayName": "Ink Divider" }
+    },
+    "typographyMeta": {
+      "body": { "displayName": "Shared Storefront Body", "purpose": "Existing shared storefront text; separate retained interfaces keep their own typography." },
+      "title": { "displayName": "Shared Storefront Title", "purpose": "Existing shared h3 styling." },
+      "button": { "displayName": "Shared Button Label", "purpose": "Existing default shared button size and weight; hero and compact variants remain distinct." },
+      "eyebrow": { "displayName": "Shared Eyebrow", "purpose": "Existing uppercase eyebrow styling; hero overrides remain in source." }
+    },
+    "shadows": [
+      { "name": "shared", "value": "0 4px 20px -2px rgba(29, 29, 31, 0.05)", "purpose": "Existing --kv-shadow for shared panels, cards, and button hover." },
+      { "name": "product-hover", "value": "0 8px 24px -4px rgba(29, 29, 31, 0.1)", "purpose": "Existing product-card hover shadow." },
+      { "name": "toast", "value": "0 12px 32px rgba(29, 29, 31, 0.14)", "purpose": "Existing shared toast shadow." },
+      { "name": "bssr-shared", "value": "0 8px 28px rgba(29, 29, 31, 0.045)", "purpose": "Existing --shadow in ../kvnstore/src/public/css/common.css; scoped to BSSR administration." }
+    ],
+    "motion": [
+      { "name": "shared-button", "value": "background 0.18s, box-shadow 0.18s", "purpose": "Existing shared button transition; reduced-motion rules remain in source." },
+      { "name": "product-card", "value": "box-shadow 0.2s", "purpose": "Existing product-card hover transition." },
+      { "name": "product-image", "value": "transform 0.3s", "purpose": "Existing product-image hover transition." },
+      { "name": "bssr-controls", "value": "background-color 160ms, border-color 160ms, box-shadow 160ms", "purpose": "Existing BSSR control transitions; reduced-motion rules remain in sibling source." }
+    ],
+    "breakpoints": [
+      { "name": "storefront-navigation-max", "value": "1200px" },
+      { "name": "shared-mobile-max", "value": "760px" },
+      { "name": "product-track-small-max", "value": "480px" },
+      { "name": "bssr-small-max", "value": "400px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Existing shared primary button; CSS variables inherit from src/shared/colors.css.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">Continue</button>",
+      "css": ".ds-button-primary { display: inline-flex; align-items: center; justify-content: center; gap: 20px; border: 1px solid var(--kv-primary); background: var(--kv-primary); color: var(--kv-white); border-radius: 8px; min-height: 48px; padding: 11px 22px; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; font-weight: 600; line-height: 1.6; text-align: center; cursor: pointer; transition: background 0.18s, box-shadow 0.18s; } .ds-button-primary:hover { background: var(--kv-primary); box-shadow: var(--kv-shadow); } .ds-button-primary:focus-visible { outline: 2px solid var(--kv-primary); outline-offset: 4px; } .ds-button-primary:disabled { cursor: not-allowed; opacity: 0.55; } @media (prefers-reduced-motion: reduce) { .ds-button-primary { transition: none; } }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Existing white-backed shared secondary action, including on gray panels.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\">Back</button>",
+      "css": ".ds-button-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 20px; border: 1px solid var(--kv-control-border); background: var(--kv-white); color: var(--kv-primary); border-radius: 8px; min-height: 48px; padding: 11px 22px; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; font-weight: 600; line-height: 1.6; text-align: center; cursor: pointer; transition: background 0.18s, box-shadow 0.18s; } .ds-button-secondary:hover { background: var(--kv-white); box-shadow: var(--kv-shadow); } .ds-button-secondary:focus-visible { outline: 2px solid var(--kv-primary); outline-offset: 4px; } .ds-button-secondary:disabled { cursor: not-allowed; opacity: 0.55; } @media (prefers-reduced-motion: reduce) { .ds-button-secondary { transition: none; } }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Existing shared text-field appearance with ink placeholder and blue keyboard focus.",
+      "html": "<input class=\"ds-input\" aria-label=\"Search\" placeholder=\"Search\" type=\"text\">",
+      "css": ".ds-input { border: 1px solid var(--kv-control-border); border-radius: 8px; color: var(--kv-ink); background: var(--kv-white); min-height: 48px; padding: 10px 13px; width: 100%; max-width: 100%; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 15px; line-height: 1.6; caret-color: var(--kv-primary); } .ds-input::placeholder { color: var(--kv-secondary-text); opacity: 1; } .ds-input:focus-visible { outline: 2px solid var(--kv-primary); outline-offset: 4px; }"
+    },
+    {
+      "name": "Navigation Fallback",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "Static CSS fallback of the existing light storefront navigation; the source retains graphics animation and responsive behavior.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Example navigation\"><a class=\"ds-nav-link\" href=\"#home\" aria-current=\"page\">Home</a><a class=\"ds-nav-link\" href=\"#catalog\">Catalog</a></nav>",
+      "css": ".ds-nav { display: inline-flex; flex-wrap: wrap; max-width: 100%; gap: 4px; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.2; } .ds-nav-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 9px 16px; border: none; border-radius: 999px; background: none; color: var(--kv-secondary-text); font: inherit; font-weight: 500; text-decoration: none; white-space: nowrap; cursor: pointer; transition: color 0.2s ease; } .ds-nav-link[aria-current='page'] { background: var(--kv-primary); color: var(--kv-white); } .ds-nav-link:hover { color: var(--kv-ink); } .ds-nav-link[aria-current='page']:hover { color: var(--kv-white); } .ds-nav-link:focus-visible { outline: 2px solid var(--kv-primary); outline-offset: 3px; } @media (prefers-reduced-motion: reduce) { .ds-nav-link { transition: none; } }"
+    },
+    {
+      "name": "Badge",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Existing non-interactive shared badge; it has no hover or focus state.",
+      "html": "<span class=\"ds-badge\">Status</span>",
+      "css": ".ds-badge { display: inline-flex; align-items: center; min-height: 25px; padding: 3px 10px; border-radius: 99px; background: var(--kv-surface); color: var(--kv-ink); border: 1px solid var(--kv-line); font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 11px; line-height: 1.4; font-weight: 500; }"
+    },
+    {
+      "name": "Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Existing shared non-interactive panel with surface fill and soft ink shadow.",
+      "html": "<section class=\"ds-panel\"><h2 class=\"ds-panel-title\">Details</h2><p class=\"ds-panel-copy\">Supporting information</p></section>",
+      "css": ".ds-panel { border: 1px solid var(--kv-line); padding: 28px; border-radius: 12px; box-shadow: var(--kv-shadow); background: var(--kv-surface); color: var(--kv-ink); min-width: 0; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 15px; line-height: 1.6; } .ds-panel-title { margin: 0 0 16px; font-size: 21px; line-height: 1.25; font-weight: 600; letter-spacing: -0.035em; } .ds-panel-copy { margin: 0; color: var(--kv-secondary-text); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Clean Minimal — Apple Style",
+    "overview": "A white canvas, light gray surfaces, dark ink, and one blue action color define the approved light appearance. This documents the implemented color change across the storefront SPA, React administration, and EJS BSSR administration; the existing compositions, density, typography, imagery, and interactions remain authoritative.\n\nShared frontend colors live in `src/shared/colors.css`; component styling lives in `src/shared/styles.css`. The retained Material UI themes are `src/app/theme.tsx` and `src/app/MaterialTheme/index.ts`. Server-rendered administration belongs to the sibling `../kvnstore` repository, with shared colors in `../kvnstore/src/public/css/common.css`. This document records that boundary without moving its source into this repository.",
+    "keyCharacteristics": [
+      "Exact approved light palette with blue actions.",
+      "Ink for readable small text and light gray for supporting surfaces.",
+      "Existing layouts, typography, media, motion, routes, and behavior preserved."
+    ],
+    "rules": [
+      {
+        "name": "The Readable Small Text Rule",
+        "body": "Muted gray measures 3.623:1 on canvas and 3.327:1 on surface, so essential small text uses ink. Action blue measures 4.697:1 on canvas and 4.313:1 on surface; frontend text links on gray sections blend into the surface and use Surface Link Blue at 5.112:1 contrast instead of a white backing. Disabled controls are the intentional muted-text exception.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do use the approved tokens and existing frontend or BSSR aliases for their documented roles.",
+      "Do use ink for essential small text and Surface Link Blue for text actions on gray sections.",
+      "Do preserve existing layout, typography, media, motion, state labels, routes, and functionality."
+    ],
+    "donts": [
+      "Don't use muted gray for essential small labels, descriptions, or placeholders.",
+      "Don't introduce a dark mode, extra accent palette, or derived color ramp as part of this color system.",
+      "Don't treat these component snapshots as authorization to redesign retained interfaces."
+    ]
+  }
+}

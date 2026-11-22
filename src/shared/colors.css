@@ -1,0 +1,128 @@
+/* Clean Minimal — Apple Style. Shared by the storefront and React administration. */
+:root {
+  color-scheme: light;
+  --kv-white: #FFFFFF;
+  --kv-surface: #F5F5F7;
+  --kv-ink: #1D1D1F;
+  --kv-muted: #86868B;
+  --kv-primary: #0071E3;
+  /* Blue text on gray surfaces: 5.11:1 contrast without a white backing. */
+  --kv-link-on-surface: #0066CC;
+  --kv-accent: var(--kv-primary);
+  /* The supplied muted gray is below 4.5:1 on both light surfaces.
+     Small readable text therefore uses ink; gray remains for non-text/disabled UI. */
+  --kv-secondary-text: var(--kv-ink);
+  --kv-line: rgba(29, 29, 31, 0.12);
+  --kv-control-border: var(--kv-muted);
+  --kv-shadow: 0 4px 20px -2px rgba(29, 29, 31, 0.05);
+  accent-color: var(--kv-primary);
+  scrollbar-color: var(--kv-muted) var(--kv-surface);
+}
+
+body {
+  background-color: var(--kv-white);
+  color: var(--kv-ink);
+}
+
+::selection {
+  background-color: var(--kv-primary);
+  color: var(--kv-white);
+}
+
+input,
+textarea {
+  caret-color: var(--kv-primary);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--kv-secondary-text);
+  opacity: 1;
+}
+
+input::file-selector-button {
+  background-color: var(--kv-white);
+  color: var(--kv-primary);
+  border-color: var(--kv-control-border);
+}
+
+/* Retained Material UI and SweetAlert dialogs share the same light palette. */
+.MuiPaper-root,
+.MuiDialog-paper,
+.swal2-popup {
+  background-color: var(--kv-surface) !important;
+  color: var(--kv-ink) !important;
+}
+.MuiInputBase-root,
+.MuiInputLabel-root,
+.MuiFormHelperText-root,
+.swal2-title,
+.swal2-html-container,
+.swal2-close {
+  color: var(--kv-ink) !important;
+}
+.MuiOutlinedInput-root,
+.MuiButton-text,
+.MuiButton-outlined,
+.swal2-cancel {
+  background-color: var(--kv-white) !important;
+}
+.MuiOutlinedInput-notchedOutline,
+.MuiDivider-root {
+  border-color: var(--kv-control-border) !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--kv-primary) !important;
+}
+.MuiButton-containedPrimary,
+.MuiButton-containedSecondary,
+.swal2-confirm,
+.swal2-deny {
+  background-color: var(--kv-primary) !important;
+  color: var(--kv-white) !important;
+}
+.MuiButton-text,
+.MuiButton-outlined,
+.swal2-cancel {
+  color: var(--kv-primary) !important;
+}
+.MuiTableCell-root {
+  color: var(--kv-ink) !important;
+  border-color: var(--kv-line) !important;
+}
+.MuiTableCell-head {
+  background-color: var(--kv-surface) !important;
+}
+.MuiTableCell-body {
+  background-color: var(--kv-white) !important;
+}
+.MuiAlert-root {
+  background-color: var(--kv-surface) !important;
+  color: var(--kv-ink) !important;
+}
+.MuiAlert-icon,
+.swal2-icon {
+  color: var(--kv-primary) !important;
+  border-color: var(--kv-primary) !important;
+}
+.swal2-success-ring {
+  border-color: var(--kv-control-border) !important;
+}
+.swal2-success-line-tip,
+.swal2-success-line-long,
+.swal2-x-mark-line-left,
+.swal2-x-mark-line-right,
+.swal2-timer-progress-bar {
+  background-color: var(--kv-primary) !important;
+}
+.MuiBackdrop-root,
+.swal2-container.swal2-backdrop-show {
+  background-color: rgba(29, 29, 31, 0.3) !important;
+}
+.MuiBackdrop-root.MuiBackdrop-invisible {
+  background-color: transparent !important;
+}
+.MuiButton-root.Mui-disabled {
+  background-color: var(--kv-surface) !important;
+  color: var(--kv-muted) !important;
+}
